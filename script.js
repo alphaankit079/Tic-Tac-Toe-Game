@@ -40,7 +40,7 @@ const checkWin = () =>{
 
 // Game Logic
 
-// music.play();
+music.play();
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
     let boxText = element.querySelector('.boxText');
